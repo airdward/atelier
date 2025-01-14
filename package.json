@@ -1,18 +1,17 @@
 {
-  "name": "igorkowalczyk-portfolio",
+  "name": "airdward-portfolio",
   "description": "My portfolio built on Next.js",
   "version": "6.0.0",
-  "author": "Igor Kowalczyk",
-  "homepage": "https://igorkowalczyk.dev",
+  "author": "Michael Edward",
   "license": "MIT",
   "private": true,
   "scripts": {
     "start": "next start",
-    "dev": "pnpm run build:content && next dev",
-    "dev:turbo": "pnpm run build:content && next dev --turbo --show-all",
-    "build": "pnpm run build:content && next build",
+    "dev": "npm run build:content && next dev",
+    "dev:turbo": "npm run build:content && next dev --turbo --show-all",
+    "build": "npm run build:content && next build",
     "build:content": "contentlayer2 build",
-    "deploy": "pnpm run build && pnpm run start",
+    "deploy": "npm run build && npm run start",
     "format": "prettier . --write --cache --ignore-unknown --plugin=prettier-plugin-tailwindcss",
     "format:check": "prettier . --check --cache --ignore-unknown",
     "analyze": "ANALYZE=true next build",
@@ -21,6 +20,7 @@
     "clean": "tsx lib/clean.ts"
   },
   "dependencies": {
+    "@contentsquare/tag-sdk": "^1.1.0",
     "@headlessui/react": "2.2.0",
     "@headlessui/tailwindcss": "0.2.1",
     "@marsidev/react-turnstile": "^1.1.0",
@@ -87,5 +87,5 @@
   "bugs": {
     "url": "https://github.com/igorkowalczyk/igorkowalczyk.github.io/issues"
   },
-  "packageManager": "pnpm@9.15.3"
+  "packageManager": "npm@9.15.3"
 }
