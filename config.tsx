@@ -2,32 +2,32 @@ import { Icons } from "./components/Icons";
 import { Contact, Header, Meta, Project, Technology } from "./lib/types";
 
 export const meta = {
- title: "Igor Kowalczyk",
- description: "I’m a full-stack developer based in Poland 🇵🇱. I have a passion for building web applications and solving problems.",
- shortDescription: "Full-stack developer, designer, and creator",
+ title: "Michael Edward",
+ description: "I’m a Computer Scientist based in Nigeria NG. I have a passion for building web applications and solving problems.",
+ shortDescription: "Developer, designer, and creator",
  //url: process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : `http://localhost:${process.env.PORT || 3000}`,
  url: "https://igorkowalczyk.dev",
  accounts: {
   github: {
-   username: "igorkowalczyk",
-   repo: "igorkowalczyk.github.io",
+   username: "airdward",
+   repo: "https://github.com/airdward",
   },
   twitter: {
-   username: "@majonezexe",
+   username: "@M_airdward",
   },
   discord: {
-   username: "@majonez.exe",
-   invite: "https://discord.gg/sgt4QEyDxK",
+   username: "@airdward",
+   invite: "https://discord.gg/9f9yBhEfnt",
    id: "544164729354977282",
   },
   instagram: {
-   username: "majonezexe",
+   username: "airdwards",
   },
  },
 } satisfies Meta;
 
 export const header = {
- title: "Igor Kowalczyk",
+ title: "Michael Edward",
  subtitle: "Full-stack developer",
  description: meta.description,
 } satisfies Header;
